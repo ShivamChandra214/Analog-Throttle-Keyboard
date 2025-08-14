@@ -1,0 +1,25 @@
+# GradualThrottle-AHK
+
+A lightweight AutoHotkey v1.1 script that simulates **analog throttle** for keyboard controls in racing and simulation games.  
+Instead of sending a constant input when holding a key, it gradually increases the keypress rate to mimic smooth acceleration.  
+
+## Features
+- Gradual acceleration for `W/A/S/D` keys
+- Adjustable start delay, acceleration rate, and minimum delay
+- Toggle on/off with **F9**
+- Auto-disables gradual mode after a set hold time (returns to normal key behavior)
+- Small on-screen indicator (disappears after 2s) when toggled
+
+## Usage
+1. Install [AutoHotkey v1.1](https://www.autohotkey.com/)
+2. Run the script
+3. Press **F9** to arm gradual throttle mode  
+4. Hold `W` (or other movement keys) to start smooth acceleration
+
+## Applications
+- Racing games without native analog input
+- Flight sims or driving sims using only a keyboard
+- Accessibility use for smoother control curves
+
+## License
+MIT License
